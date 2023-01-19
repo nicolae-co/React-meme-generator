@@ -7,6 +7,10 @@
   font-family: 'Karla', sans-serif;
 }
 
+main{
+  padding: 36px;
+}
+
 .header{
   display: flex;
   align-items: center;
@@ -33,4 +37,24 @@
   color: #422040;
   font-weight: 500;
   line-height: 15px;
+}
+
+.form{
+  display: grid;
+  grid-template: 40px 40px/ 1fr 1fr;
+  gap: 17px
+}
+
+.form--input{
+  border-radius: 5px;
+  border: 1px solid #D5D4D8;
+  text-indent: 5px;
+}
+
+.form--button{
+  grid-column: 1/-1;
+  border-radius: 5px;
+  background: linear-gradient(90deg, #e8d7ff 0%, #ffd3e8 50%, #ffd7d5 100%);
+  border: none;
+  cursor: pointer;
 }
