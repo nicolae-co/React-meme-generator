@@ -42,7 +42,7 @@ main{
 .form{
   display: grid;
   grid-template: 40px 40px/ 1fr 1fr;
-  gap: 17px
+  gap: 17px;  
 }
 
 .form--input{
@@ -57,4 +57,9 @@ main{
   background: linear-gradient(90deg, #e8d7ff 0%, #ffd3e8 50%, #ffd7d5 100%);
   border: none;
   cursor: pointer;
+}
+
+.form-img{
+  max-width: 100%;
+  
 }
